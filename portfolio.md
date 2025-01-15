@@ -1,3 +1,6 @@
+[About](../index.md) | [Portfolio](../portfolio.md) | [Skills](../skills.md) | [Contact](../contact.md)
+
+
 ---
 # Portfolio
 
