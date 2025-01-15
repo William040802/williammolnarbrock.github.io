@@ -1,4 +1,3 @@
-[About](index.md) | [Portfolio](portfolio.md) | [Skills](skills.md) | [Contact](contact.md)
 ---
 # Portfolio
 
@@ -8,9 +7,15 @@ A journaling platform that provides actionable emotional insights through advanc
 
 [View the code on GitHub](https://github.com/William040802/Journalytics)
 
----
-
 ### [Neural Radiance Field (NeRF)](projects/nerf.md)
-A model that generates volumetric density and color from arbitrary viewpoints to synthesize realistic 3D scenes.
+A project to generate volumetric density and color of objects from 2D images using a branched neural network.
 
 [View the code on GitHub](https://github.com/William040802/Neural-Radiance-Field)
+
+---
+
+## Collaborative Projects
+### [Image Primitive Stylization](projects/image-stylization.md)
+Implemented a hill-climbing algorithm for stylizing images using 3D brush stroke primitives, in collaboration with a research team.
+
+[View the code on GitHub](https://github.com/William040802/Image-Primitive-Stylization)
