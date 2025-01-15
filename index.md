@@ -1,8 +1,7 @@
-# William Molnar-Brock
+[About](index.md) | [Portfolio](portfolio.md) | [Skills](skills.md) | [Contact](contact.md)
+---
+# Welcome to My Portfolio
 
-Welcome to my portfolio! Explore my projects, skills, and background as a Machine Learning Engineer. Use the menu to navigate to different sections of the site.
+I’m **William Molnar-Brock**, a Machine Learning Engineer with a passion for building intelligent systems. Explore my site to learn more about my projects, skills, and background.
 
-- [About](about.md)
-- [Portfolio](portfolio.md)
-- [Skills](skills.md)
-- [Contact](contact.md)
+Use the navigation bar above to visit different sections of my portfolio.

@@ -1,0 +1,12 @@
+[About](index.md) | [Portfolio](portfolio.md) | [Skills](skills.md) | [Contact](contact.md)
+---
+# Skills
+
+## Programming Languages
+- Python, Java, C/C++, SQL, JavaScript, Swift, MATLAB, PHP
+
+## Frameworks and Libraries
+- PyTorch, TensorFlow, Keras, NumPy, pandas, Matplotlib, Scikit-learn
+
+## Tools
+- Git, Visual Studio, PyCharm, Colab, Docker

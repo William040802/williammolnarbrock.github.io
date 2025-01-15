@@ -1,3 +1,6 @@
+[About](../index.md) | [Portfolio](../portfolio.md) | [Skills](../skills.md) | [Contact](../contact.md)
+
+
 # About Me
 
 Hi, I’m **William Molnar-Brock**, a Machine Learning Engineer with a Bachelor of Arts in Computer Science from the University of California, Berkeley (GPA: 3.4). My academic background includes courses in Artificial Intelligence, Machine Learning, Computer Vision, and Robotic Manipulation.
