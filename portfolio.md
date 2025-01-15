@@ -1,7 +1,3 @@
-[About](../index.md) | [Portfolio](../portfolio.md) | [Skills](../skills.md) | [Contact](../contact.md)
-
-
----
 # Portfolio
 
 ## Featured Projects
@@ -19,6 +15,6 @@ A project to generate volumetric density and color of objects from 2D images usi
 
 ## Collaborative Projects
 ### [Image Primitive Stylization](projects/image-stylization.md)
-Implemented a hill-climbing algorithm for stylizing images using 3D brush stroke primitives, in collaboration with a research team.
+Implemented a hill-climbing algorithm for stylizing images using 3D brush stroke primitives, developed collaboratively.
 
-[View the code on GitHub](https://github.com/William040802/Image-Primitive-Stylization)
+[View the code on GitHub](https://github.com/aayushg55/184_Primitive_Based_Paintings)

@@ -1,9 +1,8 @@
-[About](../index.md) | [Portfolio](../portfolio.md) | [Skills](../skills.md) | [Contact](../contact.md)
 
 # Image Primitive Stylization
 
 ## Overview
-This project focuses on **stylizing images using 3D brush stroke primitives**, developed in collaboration with a research team. By using a hill-climbing algorithm, the system creates artistic representations of input images by simulating brush strokes with varying sizes, angles, and textures.
+This project focuses on **stylizing images using 3D brush stroke primitives**, developed in collaboration with a team. By using a hill-climbing algorithm, the system creates artistic representations of input images by simulating brush strokes with varying sizes, angles, and textures.
 
 ## Features
 - **3D Brush Stroke Simulation**: Converts 2D image elements into 3D primitives.
@@ -17,7 +16,7 @@ This project focuses on **stylizing images using 3D brush stroke primitives**, d
 
 ## Repository
 Explore the implementation and detailed methodology:  
-[GitHub Repository](https://github.com/William040802/Image-Primitive-Stylization)
+[GitHub Repository](https://github.com/aayushg55/184_Primitive_Based_Paintings)
 
 ## Applications
 - Generating artistic representations for digital media.
