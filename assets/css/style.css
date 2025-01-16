@@ -12,9 +12,9 @@ header {
     color: white;
 }
 
-.site-title a {
-    text-decoration: none;
-    color: white;
+.site-title {
+    margin: 0;
+    font-size: 2.5em;
 }
 
 .navbar ul {
@@ -43,12 +43,4 @@ main {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #333;
-    color: #fff;
-    margin-top: 20px;
 }

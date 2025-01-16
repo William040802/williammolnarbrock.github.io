@@ -1,37 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Journalytics | William Molnar-Brock</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-    <header>
-        <h1 class="site-title"><a href="/">William Molnar-Brock</a></h1>
-        <nav class="navbar">
-            <ul>
-                <li><a href="/">About</a></li>
-                <li><a href="/portfolio.html">Portfolio</a></li>
-                <li><a href="/skills.html">Skills</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Journalytics</h1>
-        <section>
-            <h2>Overview</h2>
-            <p><strong>Journalytics</strong> is a journaling platform designed to provide actionable emotional insights through advanced sentiment analysis.</p>
-        </section>
-        <section>
-            <h2>Repository</h2>
-            <p><a href="https://github.com/William040802/Journalytics" target="_blank">GitHub Repository</a></p>
-        </section>
-        <p><a href="/portfolio.html">Back to Portfolio</a></p>
-    </main>
-    <footer>
-        <p>&copy; 2024 William Molnar-Brock. All Rights Reserved.</p>
-    </footer>
-</body>
-</html>
+---
+layout: default
+title: Journalytics
+---
+
+<h1>Journalytics</h1>
+
+<h2>Overview</h2>
+<p>
+<strong>Journalytics</strong> is a cutting-edge journaling platform designed to help users document their thoughts and emotions while gaining deeper insights through advanced sentiment analysis.
+</p>
+
+<h2>How Sentiment Analysis Works</h2>
+<p>
+Journalytics uses a sophisticated machine learning model based on the pretrained <strong>BERT (Bidirectional Encoder Representations from Transformers)</strong> architecture. Each journal entry is analyzed across six primary emotional dimensions:
+</p>
+<ul>
+  <li>Sadness</li>
+  <li>Joy</li>
+  <li>Love</li>
+  <li>Anger</li>
+  <li>Fear</li>
+  <li>Surprise</li>
+</ul>
+
+<h3>Behind the Scenes</h3>
+<ol>
+  <li><strong>Data Preparation</strong>:
+    <ul>
+      <li>Journal entries are vectorized using BERT embeddings to capture their semantic and emotional meaning.</li>
+      <li>A unique data augmentation technique combines these embeddings to generate nuanced emotional representations.</li>
+    </ul>
+  </li>
+  <li><strong>The Model</strong>:
+    <ul>
+      <li>A fully connected neural network processes the embeddings to assign weights (0–1) for each emotional category.</li>
+      <li>Dropout regularization ensures robustness, while a sigmoid activation outputs normalized intensities.</li>
+    </ul>
+  </li>
+  <li><strong>Output</strong>:
+    <ul>
+      <li>The system provides a vector of emotional intensities, representing the relative presence of each emotion in the text.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2>Applications of Emotional Insights</h2>
+<ul>
+  <li><strong>Mood Tracking</strong>: Monitor emotional trends over time to identify patterns.</li>
+  <li><strong>Mental Health Awareness</strong>: Reflect on triggers and emotional fluctuations in journal entries.</li>
+  <li><strong>Progress Visualization</strong>: Quantify emotional states and track improvements.</li>
+</ul>
+
+<h2>Technologies Used</h2>
+<ul>
+  <li><strong>Languages</strong>: Python</li>
+  <li><strong>Libraries and Frameworks</strong>:
+    <ul>
+      <li>Transformers (Hugging Face), PyTorch, NumPy, Pandas, Matplotlib, Seaborn</li>
+    </ul>
+  </li>
+  <li><strong>Architecture</strong>: Pretrained BERT for embeddings, fine-tuned with a custom feedforward neural network.</li>
+</ul>
+
+<h2>Future Enhancements</h2>
+<ul>
+  <li>Expand language support for multilingual sentiment analysis.</li>
+  <li>Introduce advanced emotion categories (e.g., gratitude, envy).</li>
+  <li>Build a web-based user interface for real-time journal analysis.</li>
+</ul>
+
+<h2>Repository</h2>
+<p>
+Explore the source code and detailed implementation:<br>
+<a href="https://github.com/William040802/Journalytics" target="_blank">GitHub Repository</a>
+</p>
+
+<p><a href="../portfolio.html">Back to Portfolio</a></p>
